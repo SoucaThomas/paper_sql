@@ -1,0 +1,10 @@
+{
+  "language": "tsql",
+  "tabWidth": 4,
+  "keywordCase": "upper",
+  "dataTypeCase": "upper",
+  "functionCase": "upper",
+  "identifierCase": "preserve",
+  "linesBetweenQueries": 1,
+  "expressionWidth": 80
+}
