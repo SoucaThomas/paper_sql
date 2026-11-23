@@ -16,7 +16,8 @@
     "format": "oxfmt && bun run format:sql",
     "format:sql": "for f in db/*.sql; do [ -e \"$f\" ] && sql-formatter -c .sql-formatter.json --fix \"$f\"; done; true",
     "format:check": "oxfmt --check",
-    "lint": "oxlint"
+    "lint": "oxlint",
+    "migrate": "bun scripts/migrate.ts"
   },
   "dependencies": {
     "mssql": "^12.8.1"
